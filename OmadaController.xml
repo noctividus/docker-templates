@@ -34,18 +34,22 @@
       <Port>
         <HostPort>29810</HostPort>
         <ContainerPort>29810</ContainerPort>
+        <Protocol>tcp</Protocol>
       </Port>
       <Port>
         <HostPort>29811</HostPort>
         <ContainerPort>29811</ContainerPort>
+        <Protocol>tcp</Protocol>
       </Port>
       <Port>
         <HostPort>29812</HostPort>
         <ContainerPort>29812</ContainerPort>
+        <Protocol>tcp</Protocol>
       </Port>
       <Port>
         <HostPort>29813</HostPort>
         <ContainerPort>29813</ContainerPort>
+        <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
