@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Category>Network:Management</Category>
-  <Name Default="OmadaController">OmadaController</Name>
-  <Changes>
-[font size=3]2021.09.09[/font]
-- Initial Release
-  </Changes>
+  <Name>OmadaController</Name>
   <Overview>
     The Omada EAP Controller is used to manage multiple EAPs intensively.
   </Overview>
   <Registry>https://registry.hub.docker.com/r/mbentley/omada-controller</Registry>
   <Repository>mbentley/omada-controller</Repository>
-  <Support></Support>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
@@ -72,6 +67,5 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8088]/</WebUI>
-  <Banner></Banner>
   <Icon>https://github.com/noctividus/docker-templates/blob/main/omada.jpg</Icon>
 </Containers>
