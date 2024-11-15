@@ -1,0 +1,21 @@
+<Container>
+    <Name>Asustor Hardware</Name>
+    <Repository>noctividus/asustor-hardware:latest</Repository>
+    <Network>bridge</Network>
+    <Privileged>true</Privileged>
+    <Environment>
+        <Variable>
+            <Name>LCM_PORT</Name>
+            <Value>/dev/ttyS1</Value>
+        </Variable>
+    </Environment>
+    <Path>
+        <ContainerPath>/dev/ttyS1</ContainerPath>
+        <HostPath>/dev/ttyS1</HostPath>
+        <AccessMode>rw</AccessMode>
+    </Path>
+    <CPU>1</CPU>
+    <Memory>512</Memory>
+    <Icon>https://path/to/icon.png</Icon>
+    <Overview>Docker container to interact with the LCD screen on Asustor NAS devices.</Overview>
+</Container>
